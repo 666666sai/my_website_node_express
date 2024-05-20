@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint">
+        <title>Login</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <h2>Login</h2>
+            <form action="/Login" method="post">
+                <div class="form-group">
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" name="username" placeholder="enter username" required autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="password">password:</label>
+                    <input type="password" id="password" name="password" placeholder="enter password" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <p> Don't have account?<a href="/singup">singup</a></p>
+        </div>
+    </body>
+</html>
